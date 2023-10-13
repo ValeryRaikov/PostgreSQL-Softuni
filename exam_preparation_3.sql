@@ -243,7 +243,7 @@ $$
 DECLARE
     total_games_created INT;
 BEGIN
-    total_games_created = (
+    total_games_created := (
         SELECT
             COUNT(*)
         FROM
